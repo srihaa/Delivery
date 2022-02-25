@@ -1,0 +1,146 @@
+
+
+.logo{ 
+margin: auto;
+
+}
+.add{
+    position:absolute;
+    left: 30px;
+    bottom: 15px;
+}
+
+.navbarr{
+    position: relative;
+}
+.u{
+    position:absolute;
+    left: 150px;
+    bottom: 15px;
+}
+
+
+.login {
+    position:absolute;
+    right: 30px;
+    bottom: 15px;
+    
+}
+.logout{
+    position:absolute;
+    right: 110px;
+    bottom: 15px;
+}
+.register{
+    position:absolute;
+    right: 120px;
+    bottom: 15px;
+
+}
+.footer{
+    position: relative;
+    bottom: 0%;
+}
+.search{
+    
+    padding-top: 30px;
+    width: 120px;
+}
+
+
+
+.containerr{
+    position:relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.containerr .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.containerr .card .content{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.containerr .card:hover .content{
+    opacity: 1;
+}
+
+.containerr .card .content .imgBx{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid rgba(0, 0, 0, 0.25);
+}
+
+.containerr .card .content .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.containerr .card .content .contentBx h3 {
+    color:aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+}
+
+.containerr .card .content .contentBx h3 span {
+    font-size: 12px;
+    font-weight:300 ;
+    text-transform: initial;
+}
+
+.containerr .card .sci {
+
+   
+    bottom: 50px;
+
+}
+.containerr .card .sci li 
+{
+    list-style: none;
+    color: aliceblue;
+    font-size: 20px;
+    
+    
+}
+.reg{
+    padding-top: 100px;
+}
+
+.dele{
+    margin-right: 30px;
+}
